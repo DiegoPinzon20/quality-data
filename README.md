@@ -1,6 +1,5 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/DiegoPinzon20/quality-data?style=flat-square)
-![GitHub top language](https://img.shields.io/github/languages/top/DiegoPinzon20/quality-data?color=orange&style=flat-square)
-![GitHub top language](https://img.shields.io/github/languages/top/DiegoPinzon20/quality-data?color=orange&style=flat-square)
+![GitHub top language](https://img.shields.io/github/languages/top/DiegoPinzon20/serenity-bdd-base-automation?color=orange&style=flat-square)
 ![GitHub last commit](https://img.shields.io/github/last-commit/DiegoPinzon20/quality-data?color=success&style=flat-square)
 [![GitHub Stars](https://img.shields.io/github/stars/DiegoPinzon20/quality-data?label=GitHub%20stars&style=social)](https://github.com/DiegoPinzon20/quality-data/stargazers/)
 ![GitHub forks](https://img.shields.io/github/forks/DiegoPinzon20/quality-data?style=social)
