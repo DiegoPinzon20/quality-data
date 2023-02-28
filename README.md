@@ -68,6 +68,4 @@ al igual que:
 </div><br><br><br><br><br>
 
 ### Copyright
-<div>
 Publicado bajo la Licencia MIT, ver el archivo [LICENSE](https://github.com/DiegoPinzon20/quality-data/blob/master/LICENSE).
-</div># quality-data
