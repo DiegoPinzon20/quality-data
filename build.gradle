@@ -23,6 +23,8 @@ ext {
 	junitVersion = '5.8.2'
 	jacksonDataTypeVersion = '2.14.1'
 	commonsApacheVersion = '3.0'
+	logbackVersion = '1.2.10'
+	serenityCoreVersion = '3.0.2'
 }
 
 dependencies {
@@ -43,6 +45,9 @@ dependencies {
 	annotationProcessor "org.projectlombok:lombok:${lombokVersion}"
 	testCompileOnly "org.projectlombok:lombok:${lombokVersion}"
 	testAnnotationProcessor "org.projectlombok:lombok:${lombokVersion}"
+
+	implementation "ch.qos.logback:logback-classic:${logbackVersion}"
+	implementation "net.serenity-bdd:serenity-core:${serenityCoreVersion}"
 
 	implementation "org.jetbrains:annotations:${jetbrainsAnnotationsVersion}"
 
