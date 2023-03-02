@@ -1,8 +1,8 @@
 package co.com.quality.data.utilities;
 
-public class GeneralUtility {
+public class GeneralUtilities {
 
-    private GeneralUtility() {
+    private GeneralUtilities() {
     }
 
     public static String getTypeClass(Object object) {
