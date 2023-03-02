@@ -26,16 +26,16 @@ public class DataStructureUtilities {
 
     public static <T, X> void printMapKeysAndValues(Map<T, X> map) {
         if (map != null)
-            map.forEach((k, v) -> LOGGER.info("Key ({}): '{}' -> Value ({}): '{}'", getTypeClass(k), k, getTypeClass(v), v));
+            map.forEach((key, value) -> LOGGER.info("Key ({}): '{}' -> Value ({}): '{}'", getTypeClass(key), key, getTypeClass(value), value));
     }
 
     public static <T> void printListValues(List<T> list) {
-        if (list != null) list.forEach(x -> LOGGER.info("List Value ({}): '{}'", getTypeClass(x), x));
+        if (list != null) list.forEach(value -> LOGGER.info("List Value ({}): '{}'", getTypeClass(value), value));
     }
 
     public static <T> void printArray(T[] array) {
         if (array != null)
-            Arrays.stream(array).forEach(t -> LOGGER.info("Array Value ({}): {}", getTypeClass(t), t));
+            Arrays.stream(array).forEach(value -> LOGGER.info("Array Value ({}): {}", getTypeClass(value), value));
     }
 
     public static <T> List<Map<T, T>> filterListOfMap(List<Map<T, T>> mapList, Set<T> filters, T filterKeyMap) {
