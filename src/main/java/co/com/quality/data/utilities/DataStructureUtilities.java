@@ -11,7 +11,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import static co.com.quality.data.utilities.GeneralUtility.getTypeClass;
+import static co.com.quality.data.utilities.GeneralUtilities.getTypeClass;
 
 public class DataStructureUtilities {
 
